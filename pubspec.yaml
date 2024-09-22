@@ -1,0 +1,36 @@
+name: src
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Adds the Cupertino Icons font to your application.
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The flutter_lints package contains recommended lints for good coding practices.
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section.
+  assets:
+    - assets/space-1.jpg
+
+  # To add custom fonts to your application, add a fonts section.
+  fonts:
+    - family: IndieFlower
+      fonts:
+        - asset: fonts/IndieFlower-Regular.ttf
